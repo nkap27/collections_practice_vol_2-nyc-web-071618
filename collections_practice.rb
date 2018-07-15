@@ -6,4 +6,5 @@ def begins_with_r(tools)
       return false
     end
     return true
+  end
 end
