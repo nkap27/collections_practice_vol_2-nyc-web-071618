@@ -21,6 +21,6 @@ end
 
 def first_wa(words)
   words.find do |word|
-    return word.start_with?("wa")
+    word.start_with?("wa")
   end
 end
