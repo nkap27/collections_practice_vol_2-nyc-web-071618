@@ -26,7 +26,9 @@ def first_wa(words)
 end
 
 def remove_non_strings(array)
-  array.each do |item|
+  array.keep_if {|item| item.is_a?(String)}
+
+    a.keep_if { |v| v =~ /[aeiou]/ }
     if item.class != String
       array.delete(item)
     end
