@@ -14,4 +14,5 @@ def contain_a(elements)
     if element.start_with?("a")
       puts element
     end
+  end
 end
