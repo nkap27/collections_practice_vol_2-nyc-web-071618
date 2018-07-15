@@ -15,6 +15,6 @@ def contain_a(elements)
     if element.start_with?("a")
       letter_a << element
     end
-    return a
+    return letter_a
   end
 end
