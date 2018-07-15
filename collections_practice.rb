@@ -29,5 +29,13 @@ def remove_non_strings(array)
   array.keep_if {|item| item.is_a?(String)}
 end
 
-def count_elements
+# def count_elements(array)
+#   words_appearances = {}
+#   array.each do |word|
+#     if
+#
+#
+# end
+
+def merge_data
 end
