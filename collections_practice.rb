@@ -23,5 +23,4 @@ def first_wa(words)
   words.find do |word|
     word.start_with?("wa")
   end
-
 end
