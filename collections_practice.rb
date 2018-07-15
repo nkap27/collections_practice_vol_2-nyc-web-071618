@@ -18,3 +18,6 @@ def contain_a(elements)
   end
   return letter_a
 end
+
+def first_wa
+end
