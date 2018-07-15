@@ -12,7 +12,7 @@ end
 def contain_a(elements)
   elements.each do |element|
     if element.start_with?("a")
-      puts element
+      puts "#{element}"
     end
   end
 end
