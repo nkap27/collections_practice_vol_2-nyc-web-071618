@@ -19,5 +19,9 @@ def contain_a(elements)
   return letter_a
 end
 
-def first_wa
+def first_wa(words)
+  words.find do |word|
+    word.start_with?("wa")
+  end
+
 end
