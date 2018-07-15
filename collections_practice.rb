@@ -28,3 +28,6 @@ end
 def remove_non_strings(array)
   array.keep_if {|item| item.is_a?(String)}
 end
+
+def count_elements
+end
