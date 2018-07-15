@@ -10,8 +10,7 @@ def begins_with_r(tools)
 end
 
 def contain_a(elements)
-  elements.each do |element|
-    element = element.split
+  elements.each do |element| 
     letter_a = []
     if element.include?("a")
       letter_a << element
