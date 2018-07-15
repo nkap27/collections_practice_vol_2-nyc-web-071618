@@ -21,7 +21,7 @@ end
 
 def first_wa(words)
   words.find do |word|
-    word.start_with?("wa")
+    return word if word.is_a?(String) && word.start_with?("wa")
   end
 end
 
