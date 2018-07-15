@@ -12,7 +12,7 @@ end
 def contain_a(elements)
   elements.map do |element|
     if element.start_with?("a")
-      puts "#{element}"
+      elements << element
     end
   end
 end
