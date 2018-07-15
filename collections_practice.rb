@@ -13,7 +13,7 @@ def contain_a(elements)
   elements.each do |element|
     element = element.split
     letter_a = []
-    if element.start_with?("a")
+    if element.include?("a")
       letter_a << element
     end
   end
