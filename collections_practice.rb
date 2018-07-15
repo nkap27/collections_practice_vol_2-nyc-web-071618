@@ -10,9 +10,11 @@ def begins_with_r(tools)
 end
 
 def contain_a(elements)
-  elements.map do |element|
+  elements.each do |element|
+    letter_a = []
     if element.start_with?("a")
-      elements << element
+      letter_a << element
     end
+    return a
   end
 end
