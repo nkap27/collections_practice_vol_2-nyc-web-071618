@@ -24,5 +24,3 @@ def first_wa(words)
     return word.start_with?("wa")
   end
 end
-
-def
