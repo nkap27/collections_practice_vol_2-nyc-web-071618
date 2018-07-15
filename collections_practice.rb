@@ -16,5 +16,4 @@ def contain_a(elements)
       letter_a << element
     end
   end
-  return letter_a
 end
