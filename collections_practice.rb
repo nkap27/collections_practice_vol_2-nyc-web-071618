@@ -24,3 +24,6 @@ def first_wa(words)
     word.start_with?("wa")
   end
 end
+
+def remove_non_strings(array)
+end
