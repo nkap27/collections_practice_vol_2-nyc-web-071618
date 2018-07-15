@@ -10,7 +10,7 @@ def begins_with_r(tools)
 end
 
 def contain_a(elements)
-  elements.each do |element|
+  elements.map do |element|
     if element.start_with?("a")
       puts "#{element}"
     end
